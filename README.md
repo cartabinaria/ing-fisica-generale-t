@@ -1,7 +1,7 @@
-# \<Insegnamento\>
+# Fisica Generale T
 
-Una raccolta di risorse per l'insegnamento di \<Insegnamento\> del Corso di
-Laurea in Informatica.
+Una raccolta di risorse per l'insegnamento di Fisica Generale T del Corso di
+Laurea in Ingegneria Informatica.
 
 ## Presentazione
 
