@@ -4,7 +4,7 @@
 
 ### Derivata di un vettore di modulo costante
 
-> 📖 Un vettore di modulo costante è sempre perpendicolare alla sua derivata (rispetto al tempo)
+> ! Un vettore di modulo costante è sempre perpendicolare alla sua derivata (rispetto al tempo)
 >
 > $$
 > \vec{a} \perp \frac{d\vec{a}}{dt}
@@ -330,7 +330,7 @@ Il campo è conservativo se e solo se è irrotazionale.
 In presenza di forze **tutte conservative**
 
 <aside>
-🪢 L’energia meccanica si conserva
+! L’energia meccanica si conserva
 
 $$
 E = T + U = \text{costante}
@@ -676,7 +676,7 @@ $$
 </aside>
 
 <aside>
-📖 Condensatori in **serie**:
+! Condensatori in **serie**:
 
 $$
 \frac 1 {C_{\text{TOT}}} =
