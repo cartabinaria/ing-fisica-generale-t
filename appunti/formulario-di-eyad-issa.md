@@ -99,7 +99,6 @@ $$
 \quad
 \longrightarrow
 \quad
-
 \begin{cases}
  r = \sqrt{x^2 + y^2} \\
  \phi = \arctan{\frac{y}{x}}
@@ -394,7 +393,6 @@ Si conserva solo la **quantità di moto**.
 
 $$
 Q_{\text{in}} = Q_{\text{fin}} \\
-
 m_1 \vec v_{1} + m_2  \vec v_{2} = (m_1 + m_2) \vec v_{fin}
 $$
 
@@ -557,7 +555,7 @@ div\vec{E} =
 \vec{\nabla}\cdot \vec{E} = \frac{\rho}{\epsilon_0}
 $$
 
-###Equazione di **Poisson**
+### Equazione di **Poisson**
 
 $$
 \nabla^2 V= -\frac{\rho}{\epsilon_0}
