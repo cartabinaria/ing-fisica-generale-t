@@ -114,7 +114,7 @@ $$
 Con S arco di circonferenza $ [0\le S \le 2\pi R]$ e $R=\vec{|r|} $ il raggio della circonferenza.
 
 $$
-\vec{r}(s)=R\cos\left(\frac{S}{R}\right) \hat{i} \ + \ R\sin\left(\frac{S}{R}\right)\hat{j}
+\vec{r}(s)=R\cos(\frac{S}{R}g) \hat{i} \ + \ R\sin(\frac{S}{R}\right)\hat{j}
 $$
 
 La posizione dipende solo dall’angolo $\phi$.
@@ -174,10 +174,10 @@ $$
 Un corpo esteso risulta in condizione di equilibrio quando:
 
 $$
-\left\{\begin{aligned}
+\{\begin{aligned}
 & \vec{R} \ = \sum{\vec{F}_i}=0 \\
 & \vec{M}_\Omega = \sum {\vec{M}_i} = 0
-\end{aligned}\right.
+\end{aligned}g.
 $$
 
 ## Dinamica
@@ -256,7 +256,7 @@ In coordinate cartesiane:
 $$
 \begin{aligned}
 \mathscr{L} &= \underset{\ell}{\int_{A}^{B}} \vec{F}(x,y,z)\cdot d\vec{l} \\
-            &= \underset{\ell}{\int_{A}^{B}} \left[F_{x}(x,y,z)dx + F_{y}(x,y,z)dy + F_{z}(x,y,z)dz \right]
+            &= \underset{\ell}{\int_{A}^{B}} [F_{x}(x,y,z)dx + F_{y}(x,y,z)dy + F_{z}(x,y,z)dz g]
 \end{aligned}
 $$
 
@@ -267,7 +267,7 @@ $$
 =\int_\ell -k \Delta x
 =
 -\frac{k}{2}
-\left(x^2_2-x^2_1 \right)
+(x^2_2-x^2_1 g)
 $$
 
 ### Potenza di una forza
@@ -373,10 +373,10 @@ $$
 ### Forza media
 
 $$
-\left<\vec F\right> = \frac 1 {\Delta t} \int_{t_1}^{t_2} {\vec F dt} = \frac{\vec q(t_2) - \vec q(t_1)}{\Delta t} = \frac{\Delta \vec q}{\Delta t}
+<\vec Fg> = \frac 1 {\Delta t} \int_{t_1}^{t_2} {\vec F dt} = \frac{\vec q(t_2) - \vec q(t_1)}{\Delta t} = \frac{\Delta \vec q}{\Delta t}
 $$
 
-Con $ \left<F\right> $ forza media
+Con $ <Fg> $ forza media
 
 ### Urti collineari elastici
 
@@ -543,7 +543,7 @@ $$
 Il flusso del campo elettrico attraverso una **superficie chiusa** è pari alla **somma delle cariche interne** **alla superficie** diviso la costante dielettrica nel vuoto.
 
 $$
-\Phi_S(\vec{E}) = \oiint_S\vec{E}\cdot \hat{n}dS = \frac{Q_S}{\epsilon_0}
+\Phi_S(\vec{E}) = \joint_S\vec{E}\cdot \hat{n}dS = \frac{Q_S}{\epsilon_0}
 $$
 
 Il **flusso** generato attraverso una superficie da **cariche esterne alla superficie è nullo**.
@@ -618,11 +618,11 @@ $$
 Da cui si ricava:
 
 $$
-\left\{\begin{aligned}
+\{\begin{aligned}
 Q_{1_f} = \frac{R_1}{R_1+R_2}(Q_{1_i} + Q_{2_i}) \\
 Q_{2_f} = \frac{R_2}{R_1+R_2}(Q_{1_i} + Q_{2_i})
 \end{aligned}
-\right.
+g.
 $$
 
 ---
@@ -657,7 +657,7 @@ $$
 <img src="https://www.notion.so/icons/light-bulb_gray.svg" alt="https://www.notion.so/icons/light-bulb_gray.svg" width="40px" /> Capacità condensatore sferico:
 
 $$
-C = 4\pi\epsilon_0 \left(\frac{R_1R_2}{R_2-R_1}\right)
+C = 4\pi\epsilon_0 (\frac{R_1R_2}{R_2-R_1}g)
 $$
 
 </aside>
@@ -733,13 +733,13 @@ $$
 ### Condensatori con dielettrici
 
 $$
-\left\{
+\{
 \begin{aligned}
 &\vec{E} = \frac{1}{\epsilon_r}\vec{E}_0\\
 &\Delta V = \frac{1}{\epsilon_r}\Delta V_0 \\
 & C = \epsilon_rC_0 = \epsilon_r\epsilon_0\frac{S}{d}
 \end{aligned}
-\right.
+g.
 $$
 
 # Correnti
@@ -793,7 +793,7 @@ $$
 Il **flusso** della densità di corrente è **nullo**:
 
 $$
-\Phi_S(\vec{J}) = \oiint_S\vec{J}\cdot \hat{n}dS = 0
+\Phi_S(\vec{J}) = \joint_S\vec{J}\cdot \hat{n}dS = 0
 $$
 
 E il **campo densità di corrente** è **solenoidale** (linee di campo sempre chiuse):
@@ -940,7 +940,7 @@ $$
 Di conseguenza il **flusso è nullo su una qualsiasi superficie chiusa**:
 
 $$
-\Phi_S(B) = \oiint_S\vec{B}\cdot \hat{n}dS = 0
+\Phi_S(B) = \joint_S\vec{B}\cdot \hat{n}dS = 0
 $$
 
 La ciruitazione è **non nulla**:
@@ -1074,7 +1074,7 @@ In ogni punto dello spazio, il **rotore** del campo magnetico è **proporzionale
 $$
 \vec \nabla \cdot \vec E = \frac \rho {\epsilon_0},
 \qquad
-\oiint_S {\vec E \cdot \hat n dS = \frac{Q_s}{\epsilon_0}}
+\joint_S {\vec E \cdot \hat n dS = \frac{Q_s}{\epsilon_0}}
 $$
 
 Con $ \vec E$ campo elettrico, $\rho $ densità di carica.
@@ -1085,7 +1085,7 @@ Il flusso del campo elettrico attraverso una superficie chiusa $ S $ è uguale a
 
 $$
 \vec \nabla \cdot \vec B = 0,
-\qquad \oiint_S {\vec B \cdot \hat n dS} = 0
+\qquad \joint_S {\vec B \cdot \hat n dS} = 0
 $$
 
 Con $ \vec B $ campo magnetico.
