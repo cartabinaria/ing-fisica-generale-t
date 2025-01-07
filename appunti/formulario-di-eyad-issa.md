@@ -14,7 +14,7 @@
 
 ### Problema diretto della dinamica
 
-Sia noto il **vettore posizione** **\\(\vec{r}\\)**, troviamo il vettore **velocità** e il vettore **accelerazione**:
+Sia noto il **vettore posizione** $\vec{r}$, troviamo il vettore **velocità** e il vettore **accelerazione**:
 
 $$
 \vec v = \frac{d \vec r} {dt}
@@ -45,9 +45,9 @@ $$
 
 1. Troviamo il modulo della velocità lungo lo spostamento
 
-   $$
-   \dot{s} = |\vec{v}| = \sqrt{v^2} = \sqrt{v_x^2 + v_y^2 + v_z^2}
-   $$
+$$
+\dot{s} = |\vec{v}| = \sqrt{v^2} = \sqrt{v_x^2 + v_y^2 + v_z^2}
+$$
 
 2. Troviamo il versore tangente
 
@@ -66,28 +66,28 @@ $$
 
 2. Troviamo la componente normale dell’accelerazione normale allo spostamento
 
-   $$
+$$
    \vec{a}_n = \vec{a}-\vec{a}_t \\
    a_n = |\vec{a}_n| = \sqrt{a^2 - a_t^2}
-   $$
+$$
 
 3. Troviamo il vettore normale
 
-   $$
+$$
    \hat{u}_n = \frac{\vec{a}_n}{|\vec{a}_n|}
-   $$
+$$
 
 4. Troviamo il raggio di curvatura
 
-   $$
+$$
    \rho = \frac{\dot{s}^2}{a_n}
-   $$
+$$
 
 5. **L’accelerazione totale** è
 
-   $$
+$$
    \vec{a}=\ddot{s}\hat{u}_t + \frac{\dot{s}^2}{\rho}\hat{u}_n
-   $$
+$$
 
 ## Coordinate polari piane
 
